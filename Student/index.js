@@ -17,4 +17,4 @@ function studentGrade(marks) {
 
 let marks = parseInt(prompt("Enter the students marks (between 0 - 100)"));
 
-console.log(studentGrade(marks));
+// console.log(studentGrade(marks));
