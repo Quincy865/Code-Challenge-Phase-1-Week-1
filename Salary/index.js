@@ -1,5 +1,7 @@
 function calculateSalary(basicSalary, benefits) {
     const grossSalary = basicSalary + benefits;
+    let basicSalary = Number(document.getElementById("basicSalary").value);
+    let benefits = Number(document.getElementById("benefits").value);
     
     let nssfDeductions = 0;
     if (grossSalary <= 6000) {
